@@ -19,7 +19,7 @@
 .country__info p {
   margin-left: 5px;
 }
-.country__info button {
+.country__btn {
   background-color: #2473b7;
   border: none;
   padding: 7px 13px;
@@ -28,4 +28,9 @@
   color: #fff;
   margin: 10px 5px 0;
   width: 100%;
+}
+
+.country__btn.disabled {
+  pointer-events: none;
+  background-color: #4b84b6;
 }
