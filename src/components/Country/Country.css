@@ -1,0 +1,31 @@
+.country__info {
+  background-color: #ddd;
+  color: #000;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.country__info img {
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.country__info h1 {
+  font-size: 25px;
+  margin-left: 5px;
+}
+.country__info p {
+  margin-left: 5px;
+}
+.country__info button {
+  background-color: #2473b7;
+  border: none;
+  padding: 7px 13px;
+  font-size: 13px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 10px 5px 0;
+  width: 100%;
+}
