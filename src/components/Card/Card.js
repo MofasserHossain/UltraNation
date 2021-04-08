@@ -29,14 +29,15 @@ function Information(props) {
     subregion,
   } = props.info;
   const totalPopulation = population / 1000000;
-  const totalPopulationNumber = totalPopulation.toFixed(5);
+  console.log(totalPopulation);
+  //   const totalPopulationNumber = totalPopulation.toFixed(5);
   return (
     <div className="card">
       <h2>Country Information</h2>
       <img src={flag} alt={name} />
       <h3>Country Name : {name}</h3>
       <span>Capital : {capital}</span>
-      <p>Population : {Number(totalPopulationNumber)} Millions </p>
+      <p>Population : {totalPopulation} Millions </p>
       <p>Area : {area} Square Meter</p>
       <p>Native : {nativeName}</p>
       <p>Region : {region}</p>

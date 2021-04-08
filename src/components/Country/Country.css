@@ -3,6 +3,7 @@
   color: #000;
   border-radius: 5px;
   padding: 20px;
+  overflow: hidden;
 }
 
 .country__info img {

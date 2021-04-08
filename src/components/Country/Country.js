@@ -9,6 +9,7 @@ const Country = (props) => {
       <h1>{name}</h1>
       <p>Capital :{capital}</p>
       <button
+        // className="country__btn"
         className={btnDisabled ? 'country__btn disabled' : 'country__btn'}
         onClick={() => {
           props.handleAddCountry(props.country);
